@@ -95,3 +95,24 @@ nav li a:hover {
 .blog-section-3 {
     background-color: #c0eaff; /* Light shade */
 }
+
+/* Footer styling */
+footer {
+    background-color: #1768ac; /* Sets a different background color for the footer */
+    color: white; /* Sets the text color for the footer */
+    margin-top: 2rem;
+    padding: 10px 20px; /* Adds padding inside the footer */
+    display: flex; /* Uses Flexbox for layout */
+    justify-content: space-between; /* Spaces out items to the left and right */
+    align-items: center; /* Aligns items vertically in the center */
+}
+
+/* Styling for footer links */
+footer a {
+    color: white; /* Sets the text color for footer links */
+    text-decoration: none; /* Removes underline from links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+}
