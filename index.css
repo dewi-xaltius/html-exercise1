@@ -1,0 +1,16 @@
+/* General styles for the body */
+body {
+    font-family: Roboto, sans-serif; /* Sets the font for the entire page */
+    margin: 0; /* Removes default margin */
+    padding-left: 0; /* Removes default padding */
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #1768ac; /* Sets the background color for the navigation bar */
+    display: flex; /* Uses Flexbox for layout */
+    justify-content: space-between; /* Spaces out items to the left and right */
+    align-items: center; /* Aligns items vertically in the center */
+    padding: 10px 20px; /* Adds padding inside the navigation bar */
+    color: white; /* Sets the text color for the navigation bar */
+}
