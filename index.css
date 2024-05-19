@@ -3,6 +3,18 @@ body {
     font-family: Roboto, sans-serif; /* Sets the font for the entire page */
     margin: 0; /* Removes default margin */
     padding-left: 0; /* Removes default padding */
+    background-color: #bde0fe;
+}
+
+/* Styles for links (a elements) */
+a {
+    color: #03256c; /* Sets the text color for links */
+    text-decoration: none; /* Removes the underline from links */
+}
+
+/* Hover effect for links */
+a:hover {
+    text-decoration: underline; /* Adds an underline on hover */
 }
 
 /* Navigation bar styling */
@@ -11,6 +23,42 @@ nav {
     display: flex; /* Uses Flexbox for layout */
     justify-content: space-between; /* Spaces out items to the left and right */
     align-items: center; /* Aligns items vertically in the center */
-    padding: 10px 20px; /* Adds padding inside the navigation bar */
+    padding: 0.25rem 1rem; /* Adds padding inside the navigation bar */
     color: white; /* Sets the text color for the navigation bar */
+}
+
+/* Styling for the navigation bar title */
+nav h1 {
+    margin: 0; /* Removes default margin */
+    font-weight: 900;
+}
+
+/* Styling for the navigation links */
+nav ul {
+    list-style: none; /* Removes bullet points from the list */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    display: flex; /* Uses Flexbox for layout */
+    gap: 2rem; /* Adds space between each list item */
+}
+
+/* Styling for links within the navigation bar */
+nav li {
+    color: white; /* Sets the text color for links */
+    text-decoration: none; /* Removes underline from links */
+    transition: transform 0.2s ease-in-out; /* Adds a smooth transition effect */
+}
+
+/* Hover effect for links */
+nav li:hover {
+    transform: scale(1.5); /* Increases the font size to 1.5 times on hover */
+}
+
+nav li a {
+    color: white;
+}
+
+nav li a:hover {
+    color: white;
+    text-decoration: none;
 }
