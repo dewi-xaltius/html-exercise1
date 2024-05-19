@@ -67,3 +67,31 @@ nav li a:hover {
     color: white;
     text-decoration: none;
 }
+
+/* Flexbox container for blog sections */
+.blog-container {
+    display: flex; /* Uses Flexbox for layout */
+    justify-content: space-between; /* Spaces out items evenly */
+    margin-top: 20px; /* Adds margin above the container */
+}
+
+/* Individual blog sections */
+.blog-section {
+    flex: 1; /* Each section takes up equal space */
+    margin: 10px; /* Adds space around each section */
+    padding: 20px; /* Adds padding inside each section */
+    border-radius: 25px; /* Rounds the corners of each section */
+}
+
+/* Specific colors for each blog section */
+.blog-section-1 {
+    background-color: #e0f7ff; /* Lightest shade */
+}
+
+.blog-section-2 {
+    background-color: #d0f0ff; /* Lighter shade */
+}
+
+.blog-section-3 {
+    background-color: #c0eaff; /* Light shade */
+}
