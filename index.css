@@ -6,6 +6,11 @@ body {
     background-color: #bde0fe;
 }
 
+/* Styles for the headings  */
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
 /* Styles for links (a elements) */
 a {
     color: #03256c; /* Sets the text color for links */
